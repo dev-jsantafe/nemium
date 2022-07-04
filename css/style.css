@@ -1,0 +1,37 @@
+@import './fonts.css';
+:root{
+    /* Variables de colores */
+    --black:#000000;
+    --white:#FFFFFF;
+    --gray-50:#212121;
+    --gray-40:#212429;
+    --gray-30:#424242;
+    --gray-20:#616161;
+    --gray-10:#808080;
+    /* Variables de fuente */
+    --base-font:'Roboto', sans-serif;
+    --headline-1:normal 3.75rem/4.94375rem var(--base-font);
+    --headline-2:normal 2rem/2.34375rem var(--base-font);
+    --headline-3:normal 1.5rem/1.758125rem var(--base-font);
+    --font: normal 1rem/1.5rem var(--base-font);
+    --font-italic:italic 1rem/1.5rem var(--base-font);
+    --font-small: normal .875rem/1.5rem var(--base-font);
+    --font-small-semi-bold: 500 .875rem/1.5rem var(--base-font);
+    --font-small-bold: bold .875rem/1.5rem var(--base-font)
+}
+body{
+    font: var(--base-font);
+    color:var(--gray-30);
+    margin: 0;
+}
+img{
+    inline-size: 100%;
+}
+figure{
+    font-size:0;
+    margin: 0;
+}
+figure>img{
+    inline-size: inherit;
+    block-size: inherit;
+}
